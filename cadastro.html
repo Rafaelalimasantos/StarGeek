@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="/stargeek.js"></script>
 </head>
 <body>
     <img src="img/fundo.png" alt="fundo">
-
-
     <img src="/img/logo.png" alt="logo">
-    <div class="div-1">
- 
-        <div>
-            <h1>Cadastro de cliente</h1>
-            <br>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Senha">
-            <input type="password" placeholder="Confirmar senha">
-            <br>
-            <br>
-            
-            <a href="/login.html" class="botao">LOGIN</a>
-            <a href="/catalago-filmes.html" class="botao">ENTRAR</a>
-        </div>
+    
+   <br>
 
+    <section class="div-1">
+        
+        <h1>Cadastro de clientes</h1>
 
-</div>
+        <input type="text" id="nome" placeholder="Nome">
+       
+        <input type="Usuario" id="login" placeholder="Email">
+        
+        <input type="password" id="senha" placeholder="Senha">
+       
+        <input type="password" id="confirmarSenha" placeholder="Confirmar senha">
+
+        <br>
+        
+        <button onclick="botaoCadastrar()">Cadastrar-se</button>
+
+        <div id="resultado"></div>
+
+    </section>
+
 <a href= "/index.html">
     <img class="img-voltar" src="img/botao-voltar.png" alt=""> </a>
+
 
 </body>
 </html>

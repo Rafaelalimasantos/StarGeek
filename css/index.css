@@ -233,15 +233,6 @@ main {
 
 }
 
-
-.img-filme {
-    border: 5px solid rgb(0, 0, 0);
-    width: 250px;
-    height: 250px;
-}
-
-
-
 .wrap {
     display: flex;
     overflow: scroll;   
@@ -249,7 +240,14 @@ main {
 
 .wrap > img {
     width: 250px;
+    height: 250px;
     transition: all 500ms;
+}
+
+.img-filme {
+    border: 5px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 300px;
 }
 
 .wrap >img:hover {
@@ -293,7 +291,27 @@ color: aliceblue;
     justify-content: center;}
 
 
+    .midia {
+        display: flex;
+        overflow: scroll;   
+    }
+    
+    .midia > img {
+        width: 250px;
+        transition: all 500ms;
+    }
+    
+    .midia >img:hover {
+        transform: scale(1.1);
+    }
+    
+    .midia::-webkit-scrollbar{
+        display: none;
+    }
 
 
-
-
+    .img-filme {
+        border: 5px solid rgb(0, 0, 0);
+        width: 180px;
+        height: 250px;
+    }

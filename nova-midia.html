@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="stargeek-2.js"></script>
 </head>
 <body>
     <img src="img/fundo.png" alt="fundo">
-
-
     <img src="/img/logo.png" alt="logo">
-    <div class="div-1">
- 
-        <div>
+    <br>
+
+        <div class="div-1"> 
             <h1>Cadastro de midia</h1>
             
-            <input type="text" placeholder="Nome do titulo">
-            <input type="text" placeholder="categoria">
-                <div class="card-com-img">
-                    <div>
-                
-                        <a href="#" class="botao-branco"> Selecionar a imagem</a>
-                    </div>
-                    
-                    <img src="/img/filme-1.png" alt="">
-        </div>
+            <select name="Categoria" id="categoria">
+                <option select value="Selecione a opção">Selecione a categoria</option>
+                <option select value="Lançamentos">Lançamentos</option>
+                <option select value="Desenhos">Desenhos</option>
+                <option select value="Para a familia toda">Para a familia toda</option>
+                <option select value="Terror">Terror</option>
+                </select>
+            <br>
+            <br>
+            <input type="text" id="nome" placeholder="Digite o nome do filme">
+            
+            <input type="text" id="imagemFilme" placeholder="Informe link da imagem">
+            <br>
+            <button class="botao3" onclick="botaoCadastrar()"> Cadastrar </button>
+         
         
-            <a href="#" class="botao">CADASTRAR</a>
-        </div>
-
-
+        
+            
 </div>
+    </div>
 <a href= "/catalago-filmes.html">
     <img class="img-voltar" src="img/botao-voltar.png" alt=""> </a>
 

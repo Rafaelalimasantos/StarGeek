@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,28 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="/stargeek.js"></script>
+
 </head>
 <body>
 
     <img src="img/fundo.png" alt="fundo">
-
-
     <img src="/img/logo.png" alt="logo">
+<br>
     <div class="div-1">
  
         <div>
             <h1>Login</h1>
             <br>
             <br>
-            <input type="text" placeholder="Usuário">
+            <input type="text" id="entrarUsuario" placeholder="Usuário">
+            <input type="password" id="entrarSenha" placeholder="Senha">
             
-            <input type="password" placeholder="Senha">
-            <br>
-            <br>
-            <a href="/login.html" class="botao">ENTRAR</a>
-            <a href="/cadastro.html" class="botao">CADASTRAR-SE</a>
-        </div>
+            <button class="botao1" onclick="botaoEntrar()">Entrar</button>
+            <button class="botao2" onclick="botaoCadastr()"> Cadastrar-se </button>
+            
 
+        </div>
 
 </div>
 
